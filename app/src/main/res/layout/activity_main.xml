@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XOR Encryption"
+        android:textColor="#00FF00"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/textInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter text"
+        android:textColor="#00FF00"
+        android:textColorHint="#00FF00"
+        android:background="@drawable/edit_text_border"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/keyInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter key"
+        android:textColor="#00FF00"
+        android:textColorHint="#00FF00"
+        android:background="@drawable/edit_text_border"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/outputText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Encrypted text"
+        android:textColor="#00FF00"
+        android:textColorHint="#00FF00"
+        android:background="@drawable/edit_text_border"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/encryptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encrypt"
+        android:textColor="#0D1D0D"
+
+        android:padding="10dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/decryptedText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Decrypted text"
+        android:textColor="#00FF00"
+        android:textColorHint="#00FF00"
+        android:background="@drawable/edit_text_border"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/decryptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decrypt"
+        android:backgroundTint="#E9E8E8"
+        android:textColor="#0D1D0D"
+
+        android:padding="10dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
+
